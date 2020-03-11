@@ -3,6 +3,15 @@ public class Aluno {
 	
 	String nome;
 	int id;
+	
+	
+	public Aluno(String nome, int id) {
+		
+		this.nome = "Gabriel";
+		this.id = 1;
+		
+		
+	}
 	public String getNome() {
 		return nome;
 	}
